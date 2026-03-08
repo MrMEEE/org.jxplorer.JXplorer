@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.jxplorer.JXplorer</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>Apache-2.0</project_license>
+  <name>JXplorer</name>
+  <summary>Cross-platform LDAP browser and editor</summary>
+  <description>
+    <p>
+      JXplorer is a fully functional LDAP client with advanced security integration
+      and support for the more difficult and obscure parts of the LDAP protocol.
+      It is a standards compliant general purpose LDAP client that can be used to
+      search, read and edit any standard LDAP directory, or any directory service
+      with an LDAP or DSML interface.
+    </p>
+    <p>Key Features:</p>
+    <ul>
+      <li>LDAP add/delete/copy/modify operations</li>
+      <li>Tree copy, move and delete</li>
+      <li>Drag-n-drop editing</li>
+      <li>Complex searching with UI for search filter construction</li>
+      <li>SSL/TLS and SASL authentication support</li>
+      <li>Full internationalization support (Arabic, Chinese, French, German, Hungarian)</li>
+      <li>Unicode and UTF8 support in DNs</li>
+      <li>Schema support and complex DN handling</li>
+      <li>Paged results and extensive help system</li>
+      <li>LDIF import/export and offline LDIF file editing</li>
+      <li>DSML support</li>
+      <li>Configurable HTML templates and forms</li>
+      <li>Pluggable editors and security providers</li>
+      <li>Certificate keystore and GSSAPI support</li>
+      <li>Multiple browser windows with data copy between windows</li>
+    </ul>
+    <p>
+      JXplorer is highly flexible and can be extended and customized in a number
+      of ways. It is available under an Apache 2.0 style open source license.
+    </p>
+  </description>
+  <launchable type="desktop-id">org.jxplorer.JXplorer.desktop</launchable>
+  <url type="homepage">https://jxplorer.org/</url>
+  <url type="help">https://jxplorer.org/help/index.html</url>
+  <developer_name>CA / pegacat / JXplorer Community</developer_name>
+  <screenshots>
+    <screenshot type="default">
+      <caption>JXplorer main window browsing an LDAP directory</caption>
+      <image>https://jxplorer.org/images/screenshot2_sm.png</image>
+    </screenshot>
+  </screenshots>
+  <categories>
+    <category>Network</category>
+    <category>System</category>
+  </categories>
+  <keywords>
+    <keyword>ldap</keyword>
+    <keyword>directory</keyword>
+    <keyword>browser</keyword>
+    <keyword>editor</keyword>
+    <keyword>admin</keyword>
+  </keywords>
+  <releases>
+    <release version="3.3.1.2" date="2016-06-02">
+      <description>
+        <p>Improved LDIF support, LDIF change file support and LDIF preview mode</p>
+      </description>
+    </release>
+  </releases>
+  <content_rating type="oars-1.1" />
+</component>

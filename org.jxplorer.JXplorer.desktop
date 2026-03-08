@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=JXplorer
+GenericName=LDAP Browser
+Comment=Cross-platform LDAP browser and editor
+Exec=jxplorer
+Icon=org.jxplorer.JXplorer
+Terminal=false
+Categories=Network;Java;System;
+Keywords=ldap;directory;browser;editor;admin;
+StartupWMClass=com-ca-directory-jxplorer-JXplorer
